@@ -1,0 +1,63 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.c-masthead__badges .c-badge:nth-child(4) {
+  right: calc(50% - 100px);
+  top: 65%;
+  transform: scale(1.75);
+}
+
+.u-hidden-visually {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}
+
+.c-masthead__badges .c-badge {
+  position: absolute;
+}
+
+.c-badge {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20288%20392%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M144%200L0%2082.526v226.948L144%20392l144-82.526V82.526z%22%2F%3E%3C%2Fdefs%3E%3Cuse%20fill%3D%22%2395949d%22%20fill-rule%3D%22evenodd%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 272.22222px;
+  font-size: 18px;
+  line-height: 1.33333;
+}
+
+.c-badge--frontmen {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20288%20392%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M144%200L0%2082.526v226.948L144%20392l144-82.526V82.526z%22%2F%3E%3C%2Fdefs%3E%3Cuse%20fill%3D%22%231f1e32%22%20fill-rule%3D%22evenodd%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-badge__name {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.c-badge__logo {
+  max-width: 129px;
+}
+
