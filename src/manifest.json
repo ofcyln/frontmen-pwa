@@ -4,9 +4,9 @@
   "short_name": "FrontMen",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/?utm_source=frontmen_pwa_a2hs",
+  "display": "fullscreen",
+  "scope": ".",
+  "start_url": "/",
   "orientation": "portrait",
   "icons": [
     {
