@@ -10,12 +10,11 @@
           "/favicon.ico",
           "/index.html",
           "/*.css",
-          "/vendor.*.js",
-          "/main.*.js",
-          "/polyfills.*.js",
-          "/runtime.*.js",
-          "/*.js",
-          "!/*-sw.js"
+          "/*.js"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/css?family=Roboto",
+          "https://fonts.gstatic.com/**"
         ]
       }
     },
@@ -29,18 +28,19 @@
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
       }
-    },
+    }
+  ],
+  "dataGroups": [
     {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "resources": {
-        "files": [
-          "/assets/**"
-        ],
-        "urls": [
-          "https://fonts.googleapis.com/**"
-        ]
+      "name": "cats",
+      "urls": [
+        "someUrl"
+      ],
+      "cacheConfig": {
+        "maxSize": 10,
+        "maxAge": "1d",
+        "timeout": "10s",
+        "strategy": "freshness"
       }
     }
   ]
